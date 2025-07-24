@@ -329,7 +329,6 @@ header {
 /* Contact Section */
 .contact {
     background: var(--light-color);
-    padding: 60px 20px;
 }
 
 .contact-container {
@@ -338,7 +337,6 @@ header {
     gap: 50px;
 }
 
-/* Contact Info Styles */
 .contact-info h3 {
     font-size: 1.8rem;
     margin-bottom: 20px;
@@ -347,8 +345,6 @@ header {
 
 .contact-info p {
     margin-bottom: 30px;
-    font-size: 1rem;
-    line-height: 1.6;
 }
 
 .contact-details {
@@ -368,20 +364,6 @@ header {
     margin-top: 5px;
 }
 
-.contact-details h4 {
-    font-size: 1rem;
-    margin: 0;
-    font-weight: 600;
-    color: var(--primary-color);
-}
-
-.contact-details p {
-    font-size: 0.95rem;
-    margin: 5px 0 0;
-    color: #333;
-}
-
-/* Contact Form Styles */
 .contact-form .form-group {
     margin-bottom: 20px;
 }
@@ -408,24 +390,7 @@ header {
     resize: vertical;
 }
 
-.contact-form .btn {
-    display: inline-block;
-    padding: 12px 25px;
-    background-color: var(--secondary-color);
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.contact-form .btn:hover {
-    background-color: var(--primary-color);
-    transform: translateY(-2px);
-}
-
-/* Social Links (if needed) */
+/* Social Links */
 .social-links {
     display: flex;
     gap: 15px;
@@ -448,28 +413,6 @@ header {
     background: var(--primary-color);
     transform: translateY(-3px);
 }
-
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    .contact {
-        padding: 40px 15px;
-    }
-
-    .contact-info h3,
-    .contact-form h3 {
-        font-size: 1.5rem;
-    }
-
-    .contact-details i {
-        font-size: 1.3rem;
-    }
-
-    .contact-form .btn {
-        width: 100%;
-        text-align: center;
-    }
-}
-
 
 /* Footer */
 footer {
